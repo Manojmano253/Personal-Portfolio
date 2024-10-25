@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>Manoj M</b></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">In-Plant Training</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#cert">Certification</a></li>
+                <li><a href="#hobbies">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Manoj M</div>
+        <div class="hamburger-menu">
+            <!-- Hamburger Icon -->
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            &#9776; <!-- This is the hamburger icon (three horizontal bars) -->
+        </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#trainings" onclick="toggleMenu()">In-Plant Trainings</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#cert" onclick="toggleMenu()">Certification</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.jfif" alt="Manoj profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Manoj</h1>
+            <p class="section__text__p2">Java FullStack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                        onclick="window.open('./assets/resume-example.pdf')">
+                    Download Resume
+                </button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/manoj-m-a16207212/'"/>
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpg"
+                    alt="Profile picture"
+                    class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/education.png"
+                            alt="Education icon"
+                            class="icon" />
+                        <h3>Education</h3>
+                        <p>B.E (Electronics And Communication Engineering)</p>
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p>
+                        Innovative and passionate Full-Stack web developer. Passionate about creating seamless user experiences and
+                        continuously learning new technologies to enhance development processes. Self motivated and cheerful individual seeking
+                        an opportunity where I can utilize my skills.!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">In-Plant Trainings</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">May 2024 — November 2024</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>TAP ACADEMY - Bangalore</h3>
+                                <p>
+                                    -Java FullStack Developer Trainee
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">June 2022 — July 2022 </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>
+                                    FLARIAL TECHNOLOGY- Coimbatore
+                                </h3>
+                                <p>Gained foundational knowledge in Android App development,with expertise in Core Java. </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>JSE</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>J2EE</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>HTML&CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>JSP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Spring</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Hibernate</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>MySql</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Visual Studio Code</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Eclipse</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>MySql Workbench 8.0 CE</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>Postman</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cert">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Certifications</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Full-Stack Developer Trainee</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3> at Tap Academy - Bangalore </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Java FullStack Foundation Course</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>
+                                    at L&T EduTech
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> Coummunication Foundation Certification </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                                alt="Experience icon"
+                                class="icon" />
+                            <div>
+                                <h3>
+                                    at LinkedIn
+                                </h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <p class="section__text__p1">My </p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png"
+                            alt="Project 3"
+                            class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Weather Application</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://manojmano253.github.io/Weather-Application/', '_blank')">
+                        Sample
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png"
+                            alt="Project 3"
+                            class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">E-Commerce Websites</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://manojmano253.github.io/Mano-Flipkart-Clone/', '_blank')">
+                            Sample 1
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://manojmano253.github.io/ECommerce-Project/', '_blank')">
+                            Sample 2
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png"
+                            alt="Project 3"
+                            class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Personal Portfolio</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                        onclick="window.open('https://manojmano253.github.io/Personal-Portfolio/', '_blank')">
+                        Sample
+                    </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png"
+                            alt="Project 3"
+                            class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Fall Alert System</h2>
+                    <div class="btn-container">
+                        <!-- <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://www.instagram.com/reel/DA09kTpi7Zs/?igsh=MW50dXVpM3RidGg5NA=='">
+                            Sample 1
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://www.instagram.com/reel/C_FXU5Ryp8K/?igsh=azI0eWhjN3Nucnpw'">
+                            Sample 2
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon" />
+                <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSHwfVmvRnTgqRLfVQKLDMjKsqVxdznZBwnjQQWKfKvxQvJKTNrdWJdlpkxhNQRDSJjhhMXs" target="_blank">manojmahesh253@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/manoj-m-a16207212/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">In-Plant Trainings</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#cert">Certification</a></li>
+                    <li><a href="#hobbies">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Manoj. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
